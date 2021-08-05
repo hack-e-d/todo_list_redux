@@ -10,7 +10,6 @@ const Input = () => {
     const dispatch = useDispatch();
 
     const addTodo = () => {
-        console.log("adding Input ..." + {input})
         
         dispatch(saveTodo({
             item: input,
